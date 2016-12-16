@@ -1,0 +1,97 @@
+=== Started 2016-12-05T13-45-37-751 ===
+[INFO ][13:45:37] [1m[32mMultiOgar 1.3.4[37m - An open source multi-protocol ogar server[0m
+[WARN ][13:45:37] ./ipbanlist.txt is missing.
+[WARN ][13:45:37] User account "Local Administrator" disabled
+[WARN ][13:45:37] User account "Local Moderator" disabled
+[WARN ][13:45:37] User account "Local User" disabled
+[INFO ][13:45:37] 0 user records loaded.
+[INFO ][13:45:37] 25 bad words loaded
+[WARN ][13:45:37] TLS: not supported (SSL certificate not found!)
+[INFO ][13:45:37] WebSocket: ws
+[INFO ][13:45:38] Started stats server on port 88
+[INFO ][13:45:38] Listening on port 443
+[INFO ][13:45:38] Current game mode is Free For All
+[NONE ][13:49:10]  Player has joined the server!
+[NONE ][13:49:10] CONNECTED    127.0.0.1:52316, origin: "file://"
+[DEBUG][13:49:42] [CHAT][127.0.0.1:52316][An unnamed cell] public:::Hi
+[NONE ][13:50:02] >help
+[NONE ][13:50:02] ======================== HELP ======================
+[NONE ][13:50:02] addbot [number]              : adds bots to the server
+[NONE ][13:50:02] kickbot [number]             : kick a number of bots
+[NONE ][13:50:02] ban [PlayerID | IP]          : bans a(n) (player's) IP
+[NONE ][13:50:02] banlist                      : get list of banned IPs.
+[NONE ][13:50:02] board [string] [string] ...  : set scoreboard text
+[NONE ][13:50:02] boardreset                   : reset scoreboard text
+[NONE ][13:50:02] change [setting] [value]     : change specified settings
+[NONE ][13:50:02] clear                        : clear console output
+[NONE ][13:50:02] color [PlayerID] [R] [G] [B] : set cell(s) color by client ID
+[NONE ][13:50:02] exit                         : stop the server
+[NONE ][13:50:02] gamemode [id]                : change server gamemode
+[NONE ][13:50:02] kick [PlayerID]              : kick player or bot by client ID
+[NONE ][13:50:02] kickall                      : kick all players and bots
+[NONE ][13:50:02] mute [PlayerID]              : mute player (block chat messages from him)
+[NONE ][13:50:02] unmute [PlayerID]            : unmute player (allow chat messages from him)
+[NONE ][13:50:02] kill [PlayerID]              : kill cell(s) by client ID
+[NONE ][13:50:02] killall                      : kill everyone
+[NONE ][13:50:02] mass [PlayerID] [mass]       : set cell(s) mass by client ID
+[NONE ][13:50:02] merge [PlayerID]             : merge all client's cells once
+[NONE ][13:50:02] skin [PlayerID] [SkinName]   : change player skin
+[NONE ][13:50:02] name [PlayerID] [name]       : change cell(s) name by client ID
+[NONE ][13:50:02] playerlist                   : get list of players and bots
+[NONE ][13:50:02] pause                        : pause game , freeze all cells
+[NONE ][13:50:02] reload                       : reload config
+[NONE ][13:50:02] status                       : get server status
+[NONE ][13:50:02] tp [PlayerID] [X] [Y]        : teleport player to specified location
+[NONE ][13:50:02] unban [IP]                   : unban an IP
+[NONE ][13:50:02] virus [X] [Y] [mass]         : spawn virus at a specified Location
+[NONE ][13:50:02] minion [PlayerID] [#] [name] : adds suicide minions to the server
+[NONE ][13:50:02] spawnmass [PlayerID] [mass]  : sets players spawn mass
+[NONE ][13:50:02] freeze [PlayerID]            : freezes a player
+[NONE ][13:50:02] speed [PlayerID]             : sets a players base speed
+[NONE ][13:50:02] rec [PlayerID]               : puts a player in rec mode
+[NONE ][13:50:02] st                           : alias for status
+[NONE ][13:50:02] pl                           : alias for playerlist
+[NONE ][13:50:02] m                            : alias for mass
+[NONE ][13:50:02] sm                           : alias for spawnmass
+[NONE ][13:50:02] ka                           : alias for killall
+[NONE ][13:50:02] k                            : alias for kill
+[NONE ][13:50:02] mg                           : alias for merge
+[NONE ][13:50:02] s                            : alias for speed
+[NONE ][13:50:02] ====================================================
+[NONE ][13:50:36] >add bot 1 100
+[WARN ][13:50:36] Invalid Command!
+[NONE ][13:50:41] >add bot 10
+[WARN ][13:50:41] Invalid Command!
+[NONE ][13:50:47] >addbot 10
+[NONE ][13:50:47] Added 10 player bots
+[NONE ][13:51:01] >spawnmass
+[WARN ][13:51:01] Please specify a valid player ID!
+[NONE ][13:51:06] >spawnmass 1 100
+[NONE ][13:51:06] Set spawnmass of An unnamed cell to 100.000
+[NONE ][13:52:52] DISCONNECTED 127.0.0.1:52316, code: 1006, reason: "", name: ""
+[NONE ][13:53:50]  Player has joined the server!
+[NONE ][13:53:50] CONNECTED    127.0.0.1:52904, origin: "file://"
+[NONE ][13:56:05]  Player has joined the server!
+[NONE ][13:56:05] CONNECTED    127.0.0.1:53247, origin: "http://alis.io"
+[NONE ][13:56:09] DISCONNECTED 127.0.0.1:53247, code: 1001, reason: "", name: ""
+[NONE ][13:56:13]  Player has joined the server!
+[NONE ][13:56:13] CONNECTED    127.0.0.1:53311, origin: "http://alis.io"
+[NONE ][13:57:17] DISCONNECTED 127.0.0.1:53311, code: 1000, reason: "", name: ""
+[NONE ][13:57:17]  Player has joined the server!
+[NONE ][13:57:17] CONNECTED    127.0.0.1:53466, origin: "http://alis.io"
+[NONE ][13:57:37] DISCONNECTED 127.0.0.1:53466, code: 1000, reason: "", name: ""
+[NONE ][13:57:37]  Player has joined the server!
+[NONE ][13:57:37] CONNECTED    127.0.0.1:53512, origin: "http://alis.io"
+[NONE ][13:57:41] DISCONNECTED 127.0.0.1:53512, code: 1000, reason: "", name: ""
+[NONE ][13:57:41]  Player has joined the server!
+[NONE ][13:57:41] CONNECTED    127.0.0.1:53521, origin: "http://alis.io"
+[NONE ][13:57:49] DISCONNECTED 127.0.0.1:53521, code: 1001, reason: "", name: ""
+[NONE ][13:58:24]  Player has joined the server!
+[NONE ][13:58:24] CONNECTED    127.0.0.1:53651, origin: "http://alis.io"
+[NONE ][13:58:24] DISCONNECTED 127.0.0.1:53651, code: 1006, reason: "", name: ""
+[NONE ][13:58:24]  Player has joined the server!
+[NONE ][13:58:24] CONNECTED    127.0.0.1:53652, origin: "http://alis.io"
+[NONE ][14:02:17] DISCONNECTED 127.0.0.1:52904, code: 1006, reason: "", name: ""
+[NONE ][14:07:04]  Player has joined the server!
+[NONE ][14:07:04] CONNECTED    127.0.0.1:54686, origin: "file://"
+[NONE ][14:07:09] DISCONNECTED 127.0.0.1:53652, code: 1000, reason: "Connection timeout", name: ""

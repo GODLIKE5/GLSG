@@ -1,0 +1,13 @@
+=== Started 2016-12-05T14-07-50-791 ===
+[INFO ][14:07:55] [1m[32mMultiOgar 1.3.4[37m - An open source multi-protocol ogar server[0m
+[WARN ][14:08:03] ./ipbanlist.txt is missing.
+[WARN ][14:08:04] User account "Local Administrator" disabled
+[WARN ][14:08:04] User account "Local Moderator" disabled
+[WARN ][14:08:04] User account "Local User" disabled
+[INFO ][14:08:04] 0 user records loaded.
+[INFO ][14:08:04] 25 bad words loaded
+[WARN ][14:08:04] TLS: not supported (SSL certificate not found!)
+[INFO ][14:08:04] WebSocket: ws
+[INFO ][14:08:06] Started stats server on port 88
+[INFO ][14:08:06] Listening on port 443
+[INFO ][14:08:06] Current game mode is Free For All

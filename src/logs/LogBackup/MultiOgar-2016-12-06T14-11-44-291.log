@@ -1,0 +1,13 @@
+=== Started 2016-12-06T14-01-47-645 ===
+[INFO ][14:01:49] [1m[32mGLSG OS 1.3.4[37m - An open source multi-protocol ogar server[0m
+[WARN ][14:01:49] ./ipbanlist.txt is missing.
+[WARN ][14:01:50] User account "Local Administrator" disabled
+[WARN ][14:01:50] User account "Local Moderator" disabled
+[WARN ][14:01:50] User account "Local User" disabled
+[INFO ][14:01:50] 0 user records loaded.
+[INFO ][14:01:50] 25 bad words loaded
+[WARN ][14:01:50] TLS: not supported (SSL certificate not found!)
+[INFO ][14:01:50] WebSocket: ws
+[INFO ][14:02:02] Started stats server on port 88
+[INFO ][14:02:02] Listening on port 443
+[INFO ][14:02:02] Current game mode is Free For All

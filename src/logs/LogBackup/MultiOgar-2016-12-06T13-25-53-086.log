@@ -1,0 +1,65 @@
+=== Started 2016-12-06T14-11-44-291 ===
+[INFO ][14:11:52] [1m[32mGLSG OS 1.3.4[37m - An open source multi-protocol ogar server[0m
+[WARN ][14:11:55] ./ipbanlist.txt is missing.
+[WARN ][14:11:57] User account "Local Administrator" disabled
+[WARN ][14:11:57] User account "Local Moderator" disabled
+[WARN ][14:11:57] User account "Local User" disabled
+[INFO ][14:11:57] 0 user records loaded.
+[INFO ][14:11:57] 25 bad words loaded
+[WARN ][14:11:57] TLS: not supported (SSL certificate not found!)
+[INFO ][14:11:57] WebSocket: ws
+[INFO ][14:11:59] Started stats server on port 88
+[INFO ][14:11:59] Listening on port 443
+[INFO ][14:11:59] Current game mode is Free For All
+[NONE ][14:12:10]  Player has joined the server!
+[NONE ][14:12:10] CONNECTED    127.0.0.1:57955, origin: "file://"
+[NONE ][14:13:08] DISCONNECTED 127.0.0.1:57955, code: 1006, reason: "", name: ""
+[NONE ][14:13:17]  Player has joined the server!
+[NONE ][14:13:17] CONNECTED    127.0.0.1:58129, origin: "file://"
+[NONE ][14:13:34] >help
+[NONE ][14:13:34] ======================== HELP ======================
+[NONE ][14:13:34] addbot [number]              : adds bots to the server
+[NONE ][14:13:34] kickbot [number]             : kick a number of bots
+[NONE ][14:13:34] ban [PlayerID | IP]          : bans a(n) (player's) IP
+[NONE ][14:13:34] banlist                      : get list of banned IPs.
+[NONE ][14:13:34] board [string] [string] ...  : set scoreboard text
+[NONE ][14:13:34] boardreset                   : reset scoreboard text
+[NONE ][14:13:34] change [setting] [value]     : change specified settings
+[NONE ][14:13:34] clear                        : clear console output
+[NONE ][14:13:34] color [PlayerID] [R] [G] [B] : set cell(s) color by client ID
+[NONE ][14:13:34] exit                         : stop the server
+[NONE ][14:13:34] gamemode [id]                : change server gamemode
+[NONE ][14:13:34] kick [PlayerID]              : kick player or bot by client ID
+[NONE ][14:13:34] kickall                      : kick all players and bots
+[NONE ][14:13:34] mute [PlayerID]              : mute player (block chat messages from him)
+[NONE ][14:13:34] unmute [PlayerID]            : unmute player (allow chat messages from him)
+[NONE ][14:13:34] kill [PlayerID]              : kill cell(s) by client ID
+[NONE ][14:13:34] killall                      : kill everyone
+[NONE ][14:13:34] mass [PlayerID] [mass]       : set cell(s) mass by client ID
+[NONE ][14:13:34] merge [PlayerID]             : merge all client's cells once
+[NONE ][14:13:34] skin [PlayerID] [SkinName]   : change player skin
+[NONE ][14:13:34] name [PlayerID] [name]       : change cell(s) name by client ID
+[NONE ][14:13:34] playerlist                   : get list of players and bots
+[NONE ][14:13:34] pause                        : pause game , freeze all cells
+[NONE ][14:13:34] reload                       : reload config
+[NONE ][14:13:34] status                       : get server status
+[NONE ][14:13:34] tp [PlayerID] [X] [Y]        : teleport player to specified location
+[NONE ][14:13:34] unban [IP]                   : unban an IP
+[NONE ][14:13:34] virus [X] [Y] [mass]         : spawn virus at a specified Location
+[NONE ][14:13:34] minion [PlayerID] [#] [name] : adds suicide minions to the server
+[NONE ][14:13:34] spawnmass [PlayerID] [mass]  : sets players spawn mass
+[NONE ][14:13:34] freeze [PlayerID]            : freezes a player
+[NONE ][14:13:34] speed [PlayerID]             : sets a players base speed
+[NONE ][14:13:34] rec [PlayerID]               : puts a player in rec mode
+[NONE ][14:13:34] st                           : alias for status
+[NONE ][14:13:34] pl                           : alias for playerlist
+[NONE ][14:13:34] m                            : alias for mass
+[NONE ][14:13:34] sm                           : alias for spawnmass
+[NONE ][14:13:34] ka                           : alias for killall
+[NONE ][14:13:34] k                            : alias for kill
+[NONE ][14:13:34] mg                           : alias for merge
+[NONE ][14:13:34] s                            : alias for speed
+[NONE ][14:13:34] ====================================================
+[NONE ][14:13:48] >addbot 100
+[NONE ][14:13:48] Added 100 player bots
+[NONE ][14:14:35] DISCONNECTED 127.0.0.1:58129, code: 1006, reason: "", name: ""
